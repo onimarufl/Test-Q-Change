@@ -23,6 +23,10 @@ func (h *Handler) Cashier(c echo.Context) error {
 		return echo.ErrBadRequest
 	}
 
+	if request.CustomerPays < request.ProductPrice {
+		return c.JSON(http.StatusBadRequest, "CustomerPays less ProductPrice")
+	}
+
 	res, err := h.service.Cashier(c, request)
 	if err != nil {
 		return c.JSON(http.StatusInternalServerError, err.Error())
