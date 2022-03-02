@@ -1,0 +1,58 @@
+{
+    "coinsstored": [
+        {
+            "description": "One thousand bath",
+            "value": 1000,
+            "amount": 10,
+            "type": "Bank"
+        },
+        {
+            "description": "Five hundred bath",
+            "value": 500,
+            "amount": 20,
+            "type": "Bank"
+        },
+        {
+            "description": "One hundred bath",
+            "value": 100,
+            "amount": 15,
+            "type": "Bank"
+        },
+        {
+            "description": "Fifty bath",
+            "value": 50,
+            "amount": 20,
+            "type": "Bank"
+        },
+        {
+            "description": "Twenty bath",
+            "value": 20,
+            "amount": 30,
+            "type": "Bank"
+        },
+        {
+            "description": "Ten bath",
+            "value": 10,
+            "amount": 20,
+            "type": "Coin"
+        },
+        {
+            "description": "Five bath",
+            "value": 5,
+            "amount": 20,
+            "type": "Coin"
+        },
+        {
+            "description": "One bath",
+            "value": 1,
+            "amount": 20,
+            "type": "Coin"
+        },
+        {
+            "description": "Twenty-Five satang",
+            "value": 0.25,
+            "amount": 50,
+            "type": "Coin"
+        }
+    ]
+}
