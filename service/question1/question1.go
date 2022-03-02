@@ -13,8 +13,8 @@ type Servicer interface {
 	CalculateDataset(c echo.Context) string
 }
 
-func (s *Service) GetTestService(c echo.Context) string {
+func (s *Service) CalculateDataset(c echo.Context) string {
 
-	return "test"
+	return ""
 
 }

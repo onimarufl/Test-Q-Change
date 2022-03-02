@@ -25,7 +25,7 @@ func (h *Handler) Cashier(c echo.Context) error {
 
 	res, err := h.service.Cashier(c, request)
 	if err != nil {
-		return echo.NewHTTPError(echo.ErrInternalServerError.Code, err.Error())
+		return c.JSON(http.StatusInternalServerError, err.Error())
 	}
 	return c.JSON(http.StatusOK, &res)
 
