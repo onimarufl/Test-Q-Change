@@ -1,0 +1,9 @@
+feature
+1.calculate the change money
+
+function
+1.check CustomerPays less ProductPrice
+2.calculate ChangeMoney
+3.calculate CoinsstoredTotalValue 
+4.check CoinsstoredTotalValue less ChangeMoney
+5.set Response
