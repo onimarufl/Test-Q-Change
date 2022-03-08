@@ -22,9 +22,8 @@ func (suite *ResultTestSuite) SetupTest() {
 	suite.service = Service{}
 
 	suite.rec = httptest.NewRecorder()
-	suite.rec.HeaderMap.Add("Accept-Language", "th-TH")
 	e := echo.New()
-	req := httptest.NewRequest(http.MethodPost, "/v1/fund/fund-fact-sheet", nil)
+	req := httptest.NewRequest(http.MethodPost, "/cashier", nil)
 	suite.context = e.NewContext(req, suite.rec)
 	suite.request = Request{
 		ProductPrice: 100,
